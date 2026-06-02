@@ -29,3 +29,11 @@ main {
 .cartao-imagem{
     width: 100%;
 }
+.cartão-interno{
+    position: relative;
+}
+.cartão-mentira, .cartao-frente{
+     position: absolute;
+     border-radius: 12px; 
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
